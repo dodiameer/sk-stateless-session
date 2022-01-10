@@ -1,6 +1,17 @@
 {
-  "name": "sk-stateless-session",
-  "version": "0.0.1",
+  "name": "@dodiameer/sk-stateless-session",
+  "version": "0.1.0",
+  "description": "Stateless sessions for SvelteKit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dodiameer/sk-stateless-session"
+  },
+  "author": {
+    "email": "mtxshiftg@gmail.com",
+    "name": "Mohammed Ali Agha",
+    "url": "https://github.com/dodiameer"
+  },
+  "license": "MIT", 
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
