@@ -3,7 +3,7 @@ import cookie from 'cookie';
 import type { CookieSerializeOptions } from 'cookie';
 import type { Handle } from '@sveltejs/kit';
 import type { ServerRequest } from '@sveltejs/kit/types/hooks';
-import { addCookie, Required, setDefaults } from './utils';
+import { addCookie, Required, setDefaults } from './_utils';
 
 export interface MakeSessionOptions {
 	/**
